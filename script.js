@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     let display = document.getElementById("display");
     let buttons = Array.from(document.querySelectorAll("button"));
-
     buttons.map(button => {
         button.addEventListener("click", function() {
             if (button.id === "clear") {
